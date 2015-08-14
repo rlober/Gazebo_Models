@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <sdf version="1.5">
-  <model name="startSphere">
+  <model name="rightHandTargetSphere">
     <static>true</static>
     <link name="link">
 
@@ -13,8 +13,8 @@
         </geometry>
 
         <material>
-            <ambient>   0.0 1.0 0.0 0.6 </ambient>
-            <diffuse>   0.0 1.0 0.0 0.6 </diffuse>
+            <ambient> 1.0 0.0 0.0 0.6 </ambient>
+            <diffuse> 1.0 0.0 0.0 0.6 </diffuse>
         </material>
 
         <transparency>0.2</transparency>

@@ -22,5 +22,7 @@
       </visual>
 
     </link>
+    <plugin name="model_push" filename="model_push/libmodel_push.so"/>
+
   </model>
 </sdf>

@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <sdf version="1.5">
-  <model name="rightHandSphere">
+  <model name="rightHandWaypointSphere">
     <static>true</static>
     <link name="link">
 
@@ -8,13 +8,13 @@
         <pose>0.0 0.0 0.0 0 0 0</pose>
         <geometry>
           <sphere>
-              <radius>0.03</radius>
+              <radius>0.02</radius>
           </sphere>
         </geometry>
 
         <material>
-            <ambient> 0.0 0.3 0.0 0.5 </ambient>
-            <diffuse> 0.0 0.3 0.0 0.5 </diffuse>
+            <ambient> 0.0 0.0 1.0 0.6 </ambient>
+            <diffuse> 0.0 0.0 1.0 0.6 </diffuse>
         </material>
 
         <transparency>0.2</transparency>

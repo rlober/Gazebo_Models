@@ -1,20 +1,21 @@
 <?xml version="1.0" ?>
 <sdf version="1.5">
-  <model name="box">
+  <model name="boxObstacle">
     <static>true</static>
     <link name="link">
-        <collision name="collision">
+
+
+        <collision name="boxObstacleCollision">
             <geometry>
                 <box>
-                    <size>0.1 0.1 0.1</size>
+                    <size>0.15 0.10 0.15</size>
                 </box>
             </geometry>
         </collision>
-
-        <visual name="visual">
+        <visual name="boxObstacleVisual">
             <geometry>
                   <box>
-                        <size>0.1 0.1 0.1</size>
+                        <size>0.15 0.10 0.15</size>
                   </box>
             </geometry>
 
@@ -23,7 +24,7 @@
                     <diffuse> 1.0 1.0 0.0 0.6 </diffuse>
             </material>
 
-            <transparency>0.3</transparency>
+            <transparency>0.6</transparency>
 
         </visual>
 
